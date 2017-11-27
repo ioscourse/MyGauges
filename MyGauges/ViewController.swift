@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         gaugeView.percentage = 75
         gaugeView.thickness = 5
-        gaugeView.labelFont = UIFont.systemFont(ofSize: 30, weight: UIFont.Weight.thin)
+        gaugeView.labelFont = UIFont.systemFont(ofSize: 40, weight: UIFontWeightThin)
         gaugeView.labelColor = UIColor.lightGray
         gaugeView.labelText = "100"
         gaugeView.gaugeBackgroundColor = UIColor.lightGray
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         //gauge 2
         Gauge2.percentage = 80
         Gauge2.thickness = 5
-        Gauge2.labelFont = UIFont.systemFont(ofSize: 30, weight: UIFont.Weight.thin)
+        Gauge2.labelFont = UIFont.systemFont(ofSize: 40, weight: UIFontWeightThin)
         Gauge2.labelColor = UIColor.lightGray
         Gauge2.labelText = "60"
         Gauge2.gaugeBackgroundColor = UIColor.lightGray
